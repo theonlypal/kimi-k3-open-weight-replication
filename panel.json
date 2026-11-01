@@ -1,0 +1,15 @@
+{
+  "moonshotai/Kimi-K3": {
+    "revision": "f831ab66814297da540d832a5235f8e904f29d06",
+    "params_total": 2800000000000,
+    "params_active": 104000000000,
+    "parameter_count_basis": "Rounded model-card architecture counts, not counts of compressed storage elements.",
+    "license": "Kimi K3 License",
+    "license_url": "https://huggingface.co/moonshotai/Kimi-K3/blob/f831ab66814297da540d832a5235f8e904f29d06/LICENSE",
+    "executable_by_author": false,
+    "weight_format": "native MXFP4 weights; MXFP8 activations in the published deployment description",
+    "config_dtype": "bfloat16",
+    "metadata_api": "https://huggingface.co/api/models/moonshotai/Kimi-K3",
+    "metadata_read_date": "2026-11-01"
+  }
+}

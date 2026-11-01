@@ -1,0 +1,15 @@
+{
+  "model_revision": "f831ab66814297da540d832a5235f8e904f29d06",
+  "base_url": "https://huggingface.co/moonshotai/Kimi-K3/resolve/f831ab66814297da540d832a5235f8e904f29d06/",
+  "read_date": "2026-11-01",
+  "weights_downloaded": false,
+  "sha256": {
+    "README.md": "57de265b5842dfa465c6e73b368b0e15a89b8793b5450528dad577da202cc6fe",
+    "config.json": "9710e121a58d03ac92c8d6da287a19541994319afbbe6d6202af001ffd379213",
+    "generation_config.json": "c6648c25e9705af7fba8847e243840d21b5cc63ddeb6297f750a7ddbb6a02836",
+    "tokenizer_config.json": "5d0803c94db9cd78763499e0956c95fd5a225c14a727e5a6cf5db3f96f010a6e",
+    "tokenization_kimi.py": "f28ea66e2d862a2a5814970b2ce40c2f7d8296ff09aed90a7e7def689b906944",
+    "encoding_k3.py": "49ff03305fdc4be26867972788d36150b67f8a9e852e62bb7959d87482223676",
+    "LICENSE": "20c797ce19af0c17de52c6afb144644768a591c521655f5ebf5712c9850f2887"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "dtype": "bfloat16",
+  "max_new_tokens": 4000,
+  "do_sample": true,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "top_k": 0,
+  "min_p": 0.0,
+  "typical_p": 1.0,
+  "repetition_penalty": 1.0,
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "num_beams": 1,
+  "num_return_sequences": 1,
+  "use_cache": true,
+  "base_seed": 20261101,
+  "chat_template_kwargs": {
+    "add_generation_prompt": true,
+    "thinking": true,
+    "thinking_effort": "max"
+  },
+  "sampling_implementation": "Raw model logits promoted to CPU float32, temperature, descending nucleus filter, torch.multinomial with a CPU generator seeded base_seed + slot_index. No other logit processor.",
+  "sampling_source": "https://huggingface.co/moonshotai/Kimi-K3/blob/f831ab66814297da540d832a5235f8e904f29d06/README.md",
+  "sampling_basis": "Model-card single-step recommendation: temperature 1.0, top-p 0.95. Other values explicitly disable additional filters and penalties; they are protocol choices, not claimed vendor recommendations.",
+  "eos_basis": "model.generation_config.eos_token_id, falling back to model.config.eos_token_id; never tokenizer.eos_token_id if model stopping IDs exist"
+}
